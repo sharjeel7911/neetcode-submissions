@@ -1,3 +1,6 @@
+# Sept 30, 2026
+# TC: O(n)
+# SC: O(1)
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
         left, right = 0, len(numbers) - 1
