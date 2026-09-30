@@ -14,4 +14,4 @@ class Solution:
         for i in t:
             freq2[i] = freq2.get(i, 0) + 1
 
-        return freq1 == freq2            
+        return freq1 == freq2
