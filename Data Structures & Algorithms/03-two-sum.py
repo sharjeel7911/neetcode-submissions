@@ -2,14 +2,15 @@
 # TC: O(n)
 # SC: O(n)
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
 
         for idx, val in enumerate(nums):
             first = val
-            second = target - first 
+            second = target - first
 
             if second in seen:
                 return [seen[second], idx]
             else:
-                seen[val] = idx 
+                seen[val] = idx
+        return []

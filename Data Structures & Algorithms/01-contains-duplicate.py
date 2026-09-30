@@ -2,11 +2,11 @@
 # TC: O(n)
 # SC: O(n)
 class Solution:
-    def hasDuplicate(self, nums: List[int]) -> bool:
+    def hasDuplicate(self, nums: list[int]) -> bool:
         seen = set()
         for i in nums:
-            if(i in seen):
+            if i in seen:
                 return True
             else:
                 seen.add(i)
-        return False            
+        return False
