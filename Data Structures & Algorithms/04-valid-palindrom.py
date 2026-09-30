@@ -1,7 +1,7 @@
 # Sept 30, 2026
 # TC: O(n)
 # SC: O(1)
-# two-pointers
+# two-pointer
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         left, right = 0, len(s) - 1
