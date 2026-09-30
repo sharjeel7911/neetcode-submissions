@@ -1,6 +1,7 @@
 # Sept 28, 2026
 # TC: O(n)
 # SC: O(n)
+# hash-map
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):

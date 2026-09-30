@@ -1,6 +1,7 @@
 # Sept 28, 2026
 # TC: O(n)
 # SC: O(n)
+# hash-map
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
